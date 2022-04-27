@@ -15,7 +15,7 @@
  */
 var array1 = [];
 
-function myFunction() {
+function shiftArray() {
 
     document.getElementById("niza1").value = array1;
 
@@ -77,6 +77,6 @@ function ResetArray(){
 }
 
 
-document.getElementById("submit").addEventListener("click", myFunction);
+document.getElementById("submit").addEventListener("click", shiftArray);
 document.getElementById("add").addEventListener("click", fillArray);
 document.getElementById("reset").addEventListener("click", ResetArray);
